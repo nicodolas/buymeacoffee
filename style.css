@@ -1,0 +1,50 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+    background-image: url('./img/coffee-paper-8.png'); /* Đặt đường dẫn tới hình nền của bạn */
+    background-size: cover; /* Đảm bảo hình nền bao phủ toàn bộ trang */
+    background-position: center; /* Căn chỉnh hình nền ở giữa */
+    background-repeat: no-repeat; /* Không lặp lại hình nền */
+    background-attachment: fixed; /* Giữ hình nền cố định khi cuộn trang */
+    font-family: 'Nunito', sans-serif; /* Sử dụng font bạn đã chọn */
+}
+
+.card {
+    max-width: 400px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    border: none;
+}
+
+h1 {
+    font-size: 1.75rem;
+    color: #333333;
+}
+
+.lead {
+    font-size: 1rem;
+    color: #555555;
+}
+
+.coffee-icon {
+    width: 50px;
+    height: auto;
+}
+
+.btn-warning {
+    background-color: #ffdd00;
+    border-color: #ffdd00;
+    color: #000;
+}
+
+.btn-warning:hover {
+    background-color: #e6c200;
+    border-color: #e6c200;
+}
+
+#donateImage {
+    max-width: 100%;
+    height: auto;
+}
